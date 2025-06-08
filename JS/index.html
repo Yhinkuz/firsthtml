@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- inline Javascript-->
+  <button onclick="alert('Hello world')">Click here</button>
+  <button ondblclick="alert('Hello world')">Click me</button>
+  
+  <!--Internal Javascript-->
+  <button onclick="reg()">Register</button>
+
+  <!--External Javascript-->
+  <button onclick="login()">Login</button>
+
+  <script>
+    function reg(){
+      alert('You have registered successfully...')
+    }
+  </script>
+
+  <form>
+    <label for="Password">Username</label>
+    <input type="text" name="username"> <br>  <br> 
+    <label for="Password">Password</label>
+    <input type="password" name="password" id=""><br><br>
+    <button>sumbit</button>
+  </form>
+  <script src="index.js"></script>
+  <script src="algo.js"></script>
+</body>
+</html>
